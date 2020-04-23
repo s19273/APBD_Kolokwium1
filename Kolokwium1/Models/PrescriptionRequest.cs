@@ -9,9 +9,9 @@ namespace Kolokwium1.Models
     public class PrescriptionRequest
     {
         [Required]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required]
-        public string DueDate { get; set; }
+        public DateTime DueDate { get; set; }
         [Required]
         public int IdPatient { get; set; }
         [Required]
